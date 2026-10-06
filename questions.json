@@ -1,0 +1,140 @@
+{
+ "id": "make-it-stick",
+ "book": "Make It Stick: The Science of Successful Learning",
+ "questions": [
+  {
+   "id": "sample-1",
+   "unit": "Preface",
+   "unitTitle": "Preface",
+   "section": "Opening",
+   "kind": "mcq",
+   "q": "[Sample] According to the Preface, what is the catch about the most effective learning strategies?",
+   "options": [
+    "They are not intuitive",
+    "They are expensive to use",
+    "They only work for children",
+    "They need special software"
+   ],
+   "answer": 0,
+   "explain": "The authors say the most effective strategies are not intuitive, so people tend to choose weaker ones."
+  },
+  {
+   "id": "sample-2",
+   "unit": "Chapter 1",
+   "unitTitle": "Learning Is Misunderstood",
+   "section": "Claims We Make in This Book",
+   "kind": "tf",
+   "q": "True or false: [Sample] The authors claim that rereading text is one of the most productive study strategies.",
+   "answer": false,
+   "explain": "They say rereading and massed practice are the favourite strategies but among the least productive."
+  },
+  {
+   "id": "sample-3",
+   "unit": "Chapter 1",
+   "unitTitle": "Learning Is Misunderstood",
+   "section": "Claims We Make in This Book",
+   "kind": "fill",
+   "q": "[Sample] Recalling facts or concepts from memory is called retrieval ____.",
+   "accept": [
+    "practice"
+   ],
+   "explain": "Retrieval practice is the authors' term for recalling learning from memory, for example with flashcards."
+  },
+  {
+   "id": "sample-4",
+   "unit": "Chapter 2",
+   "unitTitle": "To Learn, Retrieve",
+   "section": "The Testing Effect",
+   "kind": "multi",
+   "q": "[Sample] Which of these are benefits of retrieval practice described in the book?",
+   "options": [
+    "It interrupts forgetting",
+    "It shows what you do not yet know",
+    "It removes the need for any effort",
+    "It works only on the day of the test"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "explain": "Retrieval strengthens memory and reveals gaps; the book stresses that effortful retrieval works best."
+  },
+  {
+   "id": "sample-5",
+   "unit": "Chapter 4",
+   "unitTitle": "Embrace Difficulties",
+   "section": "How Learning Occurs",
+   "kind": "order",
+   "q": "[Sample] Put the steps of learning in the order the book describes them.",
+   "items": [
+    "Encoding",
+    "Consolidation",
+    "Retrieval"
+   ],
+   "explain": "Information is encoded, consolidated into long-term memory, then retrieved when needed."
+  },
+  {
+   "id": "sample-6",
+   "unit": "Chapter 3",
+   "unitTitle": "Mix Up Your Practice",
+   "section": "The Myth of Massed Practice",
+   "kind": "sort",
+   "q": "[Sample] Sort these into massed practice and its more effective alternatives.",
+   "groups": [
+    "Massed practice",
+    "Alternatives"
+   ],
+   "items": [
+    {
+     "t": "Cramming for an exam",
+     "g": 0
+    },
+    {
+     "t": "Rapid-fire repetition of one skill",
+     "g": 0
+    },
+    {
+     "t": "Spaced practice",
+     "g": 1
+    },
+    {
+     "t": "Interleaved practice",
+     "g": 1
+    }
+   ],
+   "explain": "Cramming and rapid-fire repetition are massed; spacing and interleaving are the alternatives the book recommends."
+  },
+  {
+   "id": "sample-7",
+   "unit": "Chapter 5",
+   "unitTitle": "Avoid Illusions of Knowing",
+   "section": "Two Systems of Knowing",
+   "kind": "match",
+   "q": "[Sample] Match each of Kahneman's systems to its description.",
+   "pairs": [
+    [
+     "System 1",
+     "Automatic, intuitive and immediate"
+    ],
+    [
+     "System 2",
+     "Slower, conscious analysis and reasoning"
+    ],
+    [
+     "Metacognition",
+     "Monitoring your own thinking"
+    ]
+   ],
+   "explain": "The book borrows Kahneman's two systems and defines metacognition as monitoring your own thinking."
+  },
+  {
+   "id": "sample-8",
+   "unit": "Chapter 2",
+   "unitTitle": "To Learn, Retrieve",
+   "section": "The Testing Effect",
+   "kind": "recall",
+   "q": "[Sample] In your own words, what is the testing effect?",
+   "a": "The testing effect is the finding that retrieving knowledge from memory makes it easier to recall later, so practicing retrieval makes learning stick far better than rereading the material."
+  }
+ ]
+}
