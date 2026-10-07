@@ -85,6 +85,18 @@ Key: `recall-quiz:<book id>`. Current format, version 2:
   (`dayKey` in `js/spaced-repetition.js`).
 - `recentResults` is newest first, at most 5.
 - `verdict` is `"excellent"`, `"pass"` or `"fail"`.
+- `resetAt` (optional) is when Reset was pressed. Cloud sync drops
+  anything older than the latest `resetAt` when merging, so a reset is
+  not undone by another device.
+
+### In the account (cloud sync)
+
+When sync is on, the same object is saved per reader per book. With
+Firebase: `users/{uid}/books/{encodeURIComponent(book id)}` with fields
+`progress` (the object as JSON text) and `updatedAt`. Which account the
+browser copy belongs to is kept in localStorage under
+`recall-quiz-sync-owner:<book id>`. Merge rules are in
+`js/sync/progress-merge.js`.
 
 ### Version 1 (older saves and backups)
 

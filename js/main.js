@@ -26,6 +26,9 @@
     findElement("home-screen").classList.remove("hidden");
     findElement("where-you-stand").classList.remove("hidden");
     quiz.homeScreen.refresh();
+    // Optional add-ons (such as cloud sync) start from this event.
+    document.dispatchEvent(new CustomEvent("recallquiz:book-opened",
+      { detail: { bookId: quiz.book.bookId() } }));
   }
 
   /** Hide the home screen and offer to pick questions.json by hand. */
